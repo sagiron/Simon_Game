@@ -35,7 +35,6 @@ function checkAnswer(currentLevel) {
     }
     if (userClickedPattern.length === gamePattern.length) {
 
-        //5. Call nextSequence() after a 1000 millisecond delay.
         setTimeout(function () {
             nextSequence();
         }, 1000);
